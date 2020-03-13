@@ -21,37 +21,23 @@
 # Base class
 
 class Vehicle:
-    def __init__(self, name, color):
-        self.name = name
-        self.color = color
+    pass
 
 class FlightVehicle(Vehicle):
-    def __init__(self, name, color, size)
-    super().__init__(name, color)
-    self.size = size
+    pass
 
 class Starship(FlightVehicle):
-    def __init__(self, name, color, size, engine)
-    super().__init__(name, color, size)
-    self.engine = engine
+    pass
 
 class Airplane(FlightVehicle):
-    def __init__(self, name, color, size, wings)
-    super().__init__(name, color, size)
-    self.wings = wings
+    pass
 
 class GroundVehicle(Vehicle):
-    def __init__(self, name, color, tires)
-    super().__init__(name, color)
-    self.tires = tires
+    pass
 
 class Car(GroundVehicle):
-    def __init__(self,name, coloe, tires, axel)
-    super().__init__(name, color, tires)
-    self.axel = axel
+    pass
 
 class Motorcycle(GroundVehicle):
-    def __init__(self, name, color, tires, seats)
-    super().__init__(name, color, tires)
-    self.seats = seats
+    pass
 
